@@ -1,0 +1,79 @@
+footer{
+  height: 100px;
+}
+.mainimg{
+  width: 600px;
+  height: 430px;
+}
+.slogan{
+  font-family: 'Akaya Telivigala', cursive;
+  font-size: 20px;
+}
+a{
+  text-decoration: none;
+}
+.imgev{
+  width: 350px;
+  height: 300px;
+  box-shadow: 0 0 20px 4px rgba(0, 0, 0, .1);
+transition: 2s;
+margin-left: 30px;
+object-fit: cover;
+border-radius: 5%;
+background-position: center;
+background-size: cover;
+box-shadow: 0px 0px 16px 0px;
+transition: transform .2s;
+}
+.navlinks{
+  margin-left: 100px;
+ }
+.tessa{
+  font-family: 'Akaya Telivigala', cursive;
+  color: rgb(4, 170, 109);
+}
+.right{
+  margin-top: 50px;
+  }
+  .heading{
+    text-align: center;
+  }
+.logo1{
+  width: 50px;
+  height: 50px;
+}
+.logo{
+  width: 100px;
+  height: 100px;
+}
+footer{
+  background-color: black;
+  color: white;
+  height: 200px;
+  padding-bottom: 150px;
+}
+.zoom{
+  transition: transform .2s;
+}
+.zoom :hover{
+  transform: scale(1.2);
+ }
+ .footig1{
+  margin:10px 15px  0 300px;
+  color: white;
+ }
+ .footig{
+  margin: 10px 15px 0 15px;
+  color: white;
+ }
+ 
+ @media screen {
+  
+ }
+
+@media screen and (max-width:480px) {
+  .imgev {
+    width: 600px;
+    height: 600px;
+  }
+}
